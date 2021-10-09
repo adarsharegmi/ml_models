@@ -1,7 +1,8 @@
 [tool.poetry]
 name = "ml_models"
-version = "0.1.1"
-description = ""
+version = "0.1.6"
+description = " This project is based upon basic ml-model testing and building a table."
+readme="README.md"
 authors = ["addyR <adarsharegmi121@gmail.com>"]
 
 [tool.poetry.dependencies]
