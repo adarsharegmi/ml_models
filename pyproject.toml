@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ml_models"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["addyR <adarsharegmi121@gmail.com>"]
 
