@@ -7,7 +7,6 @@ from sklearn import metrics #Import scikit-learn metrics module for accuracy cal
 import pandas as pd 
 import numpy as np
 from matplotlib import pyplot  as plt
-import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 

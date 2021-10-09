@@ -41,9 +41,10 @@ nn = MLPClassifier(solver='lbfgs', alpha=1e-5,
                      hidden_layer_sizes=(1), random_state=1)
 
 
-if __name__ == '__main__':
+
+def main():
     # reading the csv file
-    df = pd.read_csv("heart_failure_records.csv")
+    df = pd.read_csv("data.csv")
     X = df.iloc[:, :-1] # Features
     y = df.iloc[:, -1] # Target variable
 
@@ -61,3 +62,5 @@ if __name__ == '__main__':
                 .unstack()
     print(averages)
         
+if __name__ == '__main__':
+    main
